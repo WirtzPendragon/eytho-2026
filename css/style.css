@@ -186,7 +186,7 @@ nav {
 
 .eytho-transition {
     width: 350px;
-    height: 350px;
+    height: auto;
     margin: 120px auto 60px ;
 }
 
@@ -424,6 +424,11 @@ nav {
     color: #474747;
     padding: 0 30px;
     font-size: 16px;
+}
+
+.competition-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .competition-logo {
