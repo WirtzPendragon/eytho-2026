@@ -450,7 +450,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.5s ease-in-out;
 }
 
 .first-category {
@@ -479,11 +478,6 @@ nav {
 .category-img {
     width: 92px;
     height: 92px;
-}
-
-.category:hover {
-    background-color: black;
-    color: #fff;
 }
 
 @media(max-width: 768px) {
